@@ -10,7 +10,7 @@
 
 .texto {
     transform: translateX(-800px); /* Inicia 500px fuera de la pantalla */
-    animation: entrarDerecha 2s forwards; /* Animación durante 2 segundos */
+    animation: entrarDerecha 5s forwards; /* Animación durante 2 segundos */
 }
   
 @keyframes entrarDerecha {

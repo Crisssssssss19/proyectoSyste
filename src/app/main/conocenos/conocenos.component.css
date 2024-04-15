@@ -1,3 +1,6 @@
+.row{
+    padding-bottom: 10px;
+}
 .conocenos{
     background-image: url("../../../assets/img/fondo.png");
     background-size:fill ;
@@ -14,5 +17,23 @@
 }
 .h2{
     font-size: 80px;
+}
+.img-conocenso{
+    width: 550px;
+}
+.btn-container{
+    border: 1px red solid;
+    padding:10px 0;
+    margin: 20px;
+}
+.btn-conocenos{
+    width: 200px;
+    border: 2px #E5E900 solid;
+    color: white;
+    background:black;
+    animation: 4s;
+}
+.btn-conocenos:hover{
+    transform: scale(1.3);
 }
 
