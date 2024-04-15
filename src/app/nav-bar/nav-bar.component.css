@@ -1,19 +1,23 @@
-
-.bg-body-tertiary{
-    background-color: black;
-    
-}
-
 .navbar-brand {
-    display: flex;
-    align-items: center;
-  }
+  display: flex;
+  align-items: center;
   
-  .navbar-brand img {
-    margin-right: 10px; 
-  }
-  
-  .navbar-brand h1 {
-    font-size: 24px; 
-    margin-bottom: 0; 
 }
+  
+.navbar-brand img {
+  margin-right: 10px; 
+}
+.navbar-brand h1 {
+  font-size: 24px; 
+  margin-bottom: 0; 
+}
+
+.image-container {
+  max-width: 100%; /* Sets maximum image width */
+  height: auto; /* Maintains image aspect ratio */
+}
+h1{
+  font-size: 32px;
+}
+
+

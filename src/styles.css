@@ -1,24 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
 
-.bg-body-black, .radio{
-    background: black;
+.bg-black{
     color: white;
-}
-.radio{
-    border-radius: 24px;
-    overflow: hidden;
-    padding: 20px;
-    margin: 50px 50px 0px 50px;
-}
-
-.img-radio{
-    border-radius: 32px;
-    overflow: hidden;
 }
 
 .textWhite{
     color: white;
 }
-.padding-button{
-    margin-bottom: 30px;
+
+.texto {
+    transform: translateX(-800px); /* Inicia 500px fuera de la pantalla */
+    animation: entrarDerecha 2s forwards; /* Animación durante 2 segundos */
 }
+  
+@keyframes entrarDerecha {
+from { transform: translateX(-800px); } /* Comienza fuera de la pantalla */
+to { transform: translateX(0); } /* Termina en su posición normal */
+}
+.animated-text {
+animation: colorChange 2s infinite;
+}
+  
+@keyframes colorChange {
+    0% {
+      color: #007bff; /* Azul */
+    }
+    25% {
+      color: #28a745; /* Verde */
+    }
+    50% {
+      color: #ffc107; /* Amarillo */
+    }
+    75% {
+      color: #dc3545; /* Rojo */
+    }
+    100% {
+      color: #007bff; /* Azul */
+    }
+  }

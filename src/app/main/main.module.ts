@@ -5,6 +5,7 @@ import { ConocenosComponent } from './conocenos/conocenos.component';
 import { MisionVisionComponent } from './mision-vision/mision-vision.component';
 import { NuestrosLogrosComponent } from './nuestros-logros/nuestros-logros.component';
 import { MainComponent } from './main/main.component';
+import { NavBarModule } from '../nav-bar/nav-bar.module';
 
 
 
@@ -17,7 +18,7 @@ import { MainComponent } from './main/main.component';
     MainComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,NavBarModule
   ],
   exports:[MainComponent]
 })
