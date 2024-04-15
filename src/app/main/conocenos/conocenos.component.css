@@ -22,7 +22,6 @@
     width: 550px;
 }
 .btn-container{
-    border: 1px red solid;
     padding:10px 0;
     margin: 20px;
 }
@@ -33,7 +32,24 @@
     background:black;
     animation: 4s;
 }
+.btn-conocenos a{
+    text-decoration: none;
+    color: white;
+}
 .btn-conocenos:hover{
     transform: scale(1.3);
+}
+
+@media screen and (max-width: 576px) {
+    
+    .row{
+        padding: 30px auto;
+    }
+    .col2{
+        display: none;
+    }
+    .h2{
+        font-size: 30px;
+    }
 }
 

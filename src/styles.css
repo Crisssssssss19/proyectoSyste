@@ -38,3 +38,23 @@ animation: colorChange 2s infinite;
       color: #007bff; /* Azul */
     }
   }
+
+
+  @media screen and (max-width:576px){
+    .bg-img{
+        width: 100%;
+        background-image: url(assets/img/syste.svg);
+        background-size:contain;
+        background-repeat: no-repeat;
+    }
+    .main-div{
+      border: 1px red solid;
+    }
+    .row{
+      border: 1px gray solid;
+      padding: 2em;
+    }
+    
+
+    
+}
