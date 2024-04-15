@@ -41,18 +41,22 @@ animation: colorChange 2s infinite;
 
 
   @media screen and (max-width:576px){
-    .bg-img{
+    /*.bg-img{
         width: 100%;
         background-image: url(assets/img/syste.svg);
         background-size:contain;
         background-repeat: no-repeat;
-    }
+    }*/
     .main-div{
-      border: 1px red solid;
+      border: #007bff 1px solid;
     }
     .row{
-      border: 1px gray solid;
       padding: 2em;
+    }
+    .conocenos-div{
+      border: #dc3545 1px solid;
+      padding: 2em 0;
+
     }
     
 
